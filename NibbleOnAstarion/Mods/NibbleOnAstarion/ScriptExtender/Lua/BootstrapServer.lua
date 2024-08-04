@@ -1,21 +1,24 @@
 Ext.Require("Main.lua")
 
-print("My First SE mod loaded succesfully")
+print("NibbleOnAstarian mod loaded succesfully")
 
-local function CheckNibbleTriggers()
-
-
-    --math.randomseed(os.clock()*100000000000)
-    --if randbool = rnd() < 0.5 then NibbleOnAstarion()
-
-    Ext.Entity.Get("0133f2ad-e121-4590-b5f0-a79413919805")
-    
+local function PrintRestStartBefore()
+    print("NibbleOnAstarian::RestStarted")
 end
 
-local function NibbleOnAstarion()
-
-    local astarion = Ext.Entity.Get("0133f2ad-e121-4590-b5f0-a79413919805")
-    local player = Ext.Entity.Get("0133f2ad-e121-4590-b5f0-a79413919805")
+local function PrintRestStartAfter()
+    print("NibbleOnAstarian::RestStarted")
 end
 
---Ext.Osiris.RegisterListener("PROC_CampNight_ClearCampNight", 1, "before", CheckNibbleTriggers)
+local function PrintRestFinishBefore()
+    print("NibbleOnAstarian::RestStarted")
+end
+
+local function PrintRestFinishAfter()
+    print("NibbleOnAstarian::RestStarted")
+end
+
+Ext.Osiris.RegisterListener("LongRestStarted", 0, "before", PrintRestStartBefore)
+Ext.Osiris.RegisterListener("LongRestStarted", 0, "after", PrintRestStartAfter)
+Ext.Osiris.RegisterListener("LongRestFinished", 0, "before", PrintRestFinishBefore)
+Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", PrintRestFinishAfter)

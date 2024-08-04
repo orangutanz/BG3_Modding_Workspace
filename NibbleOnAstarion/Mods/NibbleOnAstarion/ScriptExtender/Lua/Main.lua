@@ -10,15 +10,14 @@ local function CheckNibbleTriggers()
 
     
     if
-
     -- math.randomseed(os.clock()*100000000000)
     -- if randbool = rnd() < 0.5 then NibbleOnAstarion()
-
-    Ext.Entity.Get("0133f2ad-e121-4590-b5f0-a79413919805")
+    
 end
 
-local function NibbleOnAstarion()
+---@param spawnCharacter string
+local function NibbleOnAstarion(spawnCharacter)
 
-    local astarion = Ext.Entity.Get("0133f2ad-e121-4590-b5f0-a79413919805")
-    local player = Ext.Entity.Get("0133f2ad-e121-4590-b5f0-a79413919805")
+    Osi.ApplyStatus(spawnCharacter, "ASTARION_HAPPY", -1)
+    Osi.ApplyStatus("c7c13742-bacd-460a-8f65-f864fe41f255", "ASTARION_WEAK", -1)
 end
