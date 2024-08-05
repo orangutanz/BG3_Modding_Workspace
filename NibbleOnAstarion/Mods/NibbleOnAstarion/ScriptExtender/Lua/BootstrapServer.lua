@@ -1,33 +1,37 @@
 Ext.Require("Main.lua")
 
-print("NibbleOnAstarian mod loaded succesfully")
+Ext.Utils.Print("NibbleOnAstarian mod loaded succesfully")
 
 
 local function OnSessionLoaded()
 
-    print("NibbleOnAstarian On Session Loaded")
+    Ext.Utils.Print("NibbleOnAstarian On Session Loaded")
+    Ext.Osiris.RegisterListener("LongRestStarted", 0, "before", PrintRestStartBefore)
+    Ext.Osiris.RegisterListener("LongRestStarted", 0, "after", PrintRestStartAfter)
+    Ext.Osiris.RegisterListener("LongRestFinished", 0, "before", PrintRestFinishBefore)
+    Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", PrintRestFinishAfter)
 
 end
 
 local function PrintRestStartBefore()
-    print("NibbleOnAstarian::RestStarted")
+    Ext.Utils.Print("NibbleOnAstarian -- Rest Start Before")
+    CheckNibbleTriggers
 end
-                                                     
-    print("NibbleOnAstarian::RestStarted")
+                      
+local function PrintRestStartBefore()       
+    Ext.Utils.Print("NibbleOnAstarian -- Rest Start After")
+    CheckNibbleTriggers
 end
 
 local function PrintRestFinishBefore()
-    print("NibbleOnAstarian::RestStarted")
+    Ext.Utils.Print("NibbleOnAstarian -- Rest Finish Before")
+    CheckNibbleTriggers
 end
 
-local function PrintRestFinishAfter()
-    print("NibbleOnAstarian::RestStarted")
+local function PrintRestFinishAfter()    
+    Ext.Utils.Print("NibbleOnAstarian -- Rest Finish After")
+    CheckNibbleTriggers
 end
 
 
 Ext.Events.SessionLoaded:Subscribe(OnSessionLoaded)
-
---Ext.Osiris.RegisterListener("LongRestStarted", 0, "before", PrintRestStartBefore)
---Ext.Osiris.RegisterListener("LongRestStarted", 0, "after", PrintRestStartAfter)
---Ext.Osiris.RegisterListener("LongRestFinished", 0, "before", PrintRestFinishBefore)
---Ext.Osiris.RegisterListener("LongRestFinished", 0, "after", PrintRestFinishAfter)
