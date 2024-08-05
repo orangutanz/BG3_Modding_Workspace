@@ -1,5 +1,5 @@
 {
-  "RequiredVersion": 2,
+  "RequiredVersion": 15,
   "ModTable": "NibbleOnAstarion",
   "FeatureFlags": [ "Lua" ]
 }
