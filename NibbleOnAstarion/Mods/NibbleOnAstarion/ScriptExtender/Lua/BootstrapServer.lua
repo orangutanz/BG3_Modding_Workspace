@@ -1,5 +1,5 @@
---Ext.Require("Main.lua")
-Print(".............NibbleOnAstarian ....................")
+Ext.Require("Main.lua")
+print("NibbleOnAstarian mod loaded succesfully")
 Ext.Utils.Print("..............NibbleOnAstarian mod loaded succesfully")
 
 local function OnSessionLoaded()
