@@ -9,6 +9,29 @@
     -- Tag: 97a839f0-9923-455a-b21f-1c1314fda711
     -- "Player has followed up on Astarion as their partner after Black Mass" << a tag that check if player have talked about being turned
 
+
+local function PrintRestStartBefore()
+    Ext.Utils.Print("NibbleOnAstarian -- Rest Start Before")
+    CheckNibbleTriggers(Osi.GetHostCharacter())
+end
+                      
+local function PrintRestStartBefore()       
+    Ext.Utils.Print("NibbleOnAstarian -- Rest Start After")
+    CheckNibbleTriggers(Osi.GetHostCharacter())
+end
+
+local function PrintRestFinishBefore()
+    Ext.Utils.Print("NibbleOnAstarian -- Rest Finish Before")
+    CheckNibbleTriggers(Osi.GetHostCharacter())
+end
+
+local function PrintRestFinishAfter()    
+    Ext.Utils.Print("NibbleOnAstarian -- Rest Finish After")
+    CheckNibbleTriggers(Osi.GetHostCharacter())
+end
+
+
+
 ---@param PlayerCharacter string
 local function NibbleOnAstarion(PlayerCharacter)
     -- math.randomseed(os.clock()*100000000000)
