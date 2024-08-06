@@ -17,8 +17,8 @@ function CheckFlags(Char)
     local flagTalked = Osi.GetFlag("97a839f0-9923-455a-b21f-1c1314fda711", Char) --int
     local flagBreakUp = Osi.GetFlag("5a60943f-979b-4120-9b60-9e9b29529402", Char) --int
 
-    Ext.Utils.Print("Spawn: " .. Char)
-    Ext.Utils.Print("Flags - Nibble:" .. flagNibble .. " Talked:" .. flagTalked .. " BreakUp:" .. flagBreakUp)
+    --Ext.Utils.Print("Spawn: " .. Char)
+    --Ext.Utils.Print("Flags - Nibble:" .. flagNibble .. " Talked:" .. flagTalked .. " BreakUp:" .. flagBreakUp)
 
     if flagNibble == 1 and flagTalked == 1 and flagBreakUp == 0 then
         NibbleOnAstarion(Char)
