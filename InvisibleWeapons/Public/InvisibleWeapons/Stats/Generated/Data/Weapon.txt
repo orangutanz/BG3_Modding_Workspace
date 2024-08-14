@@ -14,9 +14,19 @@ data "Weapon Properties" "Ammunition;Light;Twohanded;Dippable;Magical"          
 data "DefaultBoosts" "WeaponProperty(Magical);WeaponDamage(1d6,Force);WeaponDamage(1d4,Thunder);WeaponEnchantment(5)"                                                             ----More boosts
 data "PassivesOnEquip" "MAG_WYR_Orin_Bhaalist_Dagger_ImprovedCritical_Passive;MAG_DoubleProficiencyBonusToRangedAttack_Passive;MAG_StrengthBonusToWeaponDamage_Passive"            ---passives it gives just by equipping
 
-new entry "USW_Invisible_Blade"
+new entry "WPN_USW_Invisible_Blade"
 type "Weapon"  
-using "WPN_Dagger_2"
+using "WPN_Katana"
 data "RootTemplate" "0150cdda-b1d4-42b8-a4c5-0d39debe6294"
-data "PassivesOnEquip" "MAG_InvisiblePike_Passive;MAG_Slicing_Shortsword_Passive;MAG_Blindside_Shortsword_Passive"
+data "Boosts" "AbilityOverrideMinimum(Dexterity, 18);AC(1)"
+data "PassivesOnEquip" "MAG_InvisiblePike_Passive;MAG_Slicing_Shortsword_Passive"
+data "StatusOnEquip" "MAG_INVISIBLE_WEAPON_BUFF_TECHNICAL"
+
+
+new entry "WPN_USW_Invisible_Salami"
+type "Weapon"  
+using "WPN_Club"
+data "RootTemplate" "6a32ed3f-fc16-4fee-816e-02b755edba36"
+data "Boosts" "AbilityOverrideMinimum(Strength, 19)"
+data "PassivesOnEquip" "MAG_InvisiblePike_Passive;MAG_Blindside_Shortsword_Passive"
 data "StatusOnEquip" "MAG_INVISIBLE_WEAPON_BUFF_TECHNICAL"
