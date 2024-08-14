@@ -5,6 +5,7 @@
 		<node id="Templates">
 			<children>			
 				<node id="GameObjects"> Package
+					<attribute id="DisplayName" type="TranslatedString" handle="hc4b6de62gb379g4adfga1deg2af01ce1cb59" version="1" />
 					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Backpack_A_Posed_A" />
 					<attribute id="InventoryType" type="uint8" value="11" />
 					<attribute id="IsInspector" type="bool" value="False" />
@@ -141,12 +142,12 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="624dc4aa-5b76-451a-974b-afdc79f8ac3e" />
 					<attribute id="Name" type="LSString" value="WPN_IW_Longbow" />
-					<attribute id="ParentTemplateId" type="FixedString" value="f5a95e54-b4ff-482d-b5f4-392917125c86" />
-					<attribute id="PhysicsTemplate" type="FixedString" value="a783ba95-12f2-4f46-5851-1a839a6d5e78" />
+					<attribute id="ParentTemplateId" type="FixedString" value="86e3d864-309c-4c17-ba38-877ce487d481" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="dbcf0c3a-97e2-776a-719e-e5a1f1ae215c" />
 					<attribute id="ReadinessFlags" type="uint32" value="128" />
 					<attribute id="Stats" type="FixedString" value="WPN_IW_Longbow" />
 					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="VisualTemplate" type="FixedString" value="28432fd2-cfe8-c5bf-fa5e-9fd5f9c122eb" />
+					<attribute id="VisualTemplate" type="FixedString" value="6bf602f5-fc45-196a-d6c6-b7a69fd24b98" />
 					<attribute id="WalkThrough" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855902" />
 					<children>
