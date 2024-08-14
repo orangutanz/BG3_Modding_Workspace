@@ -4,6 +4,30 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children>			
+				<node id="GameObjects"> Package
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Backpack_A_Posed_A" />
+					<attribute id="InventoryType" type="uint8" value="11" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ef64c03e-c80a-47bd-82c8-2a914cc7cf66" />
+					<attribute id="Name" type="LSString" value="OBJ_IW_ArmouryPack" />
+					<attribute id="ParentTemplateId" type="FixedString" value="aebf62bd-e68d-4e14-9ed7-1d51289a3e4e" />
+					<attribute id="Stats" type="FixedString" value="OBJ_IW_ArmouryPack" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="OBJ_IW_ArmouryPack_Table" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 				<node id="GameObjects"> Blade
 					<attribute id="CanShootThrough" type="bool" value="True" />
 					<attribute id="Description" type="TranslatedString" handle="h30ba1eb1g033ag4ab4ga524g4cf87e7016d0" version="1" />

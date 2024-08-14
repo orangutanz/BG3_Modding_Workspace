@@ -1,0 +1,18 @@
+new treasuretable "OBJ_IW_ArmouryPack_Table"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_IW_Blade",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_IW_Pike",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_IW_Glaive",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_IW_Halberd",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_IW_Greataxe",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_IW_Maul",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_IW_Longbow",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_IW_HeavyCrossbow",1,0,0,0,0,0,0,0

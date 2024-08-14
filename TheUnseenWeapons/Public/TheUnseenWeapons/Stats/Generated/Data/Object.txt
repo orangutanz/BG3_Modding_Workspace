@@ -1,0 +1,7 @@
+new entry "OBJ_IW_ArmouryPack"
+type "Object"
+using "_Container"
+data "RootTemplate" "ef64c03e-c80a-47bd-82c8-2a914cc7cf66"
+data "ValueOverride" "7"
+data "Weight" "0.1"
+data "Rarity" "VeryRare"
