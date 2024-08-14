@@ -6,8 +6,8 @@
 			<children>			
 				<node id="GameObjects"> A template for a weapon - The black text after the brackets can be deleted and is not necessary
 					<attribute id="CanShootThrough" type="bool" value="True" />
-					<attribute id="Description" type="TranslatedString" handle="hb3c2d303g48dbg4adfga6c1g33fcc48fbca7" version="1" /> CHANGE THIS - Pointing to the Handle for the description in the XML file in the localization folder
-					<attribute id="DisplayName" type="TranslatedString" handle="h71684eb5g9120g408egb0d6g5928b5b73162" version="1" /> CHANGE THIS - Pointing to the Handle for the display name in the XML file in the localization folder
+					<attribute id="Description" type="TranslatedString" handle="h30ba1eb1g033ag4ab4ga524g4cf87e7016d0" version="1" /> CHANGE THIS - Pointing to the Handle for the description in the XML file in the localization folder
+					<attribute id="DisplayName" type="TranslatedString" handle="h17de3609g51c2g4c8fg9cc7ga75c66dc8a89" version="1" /> CHANGE THIS - Pointing to the Handle for the display name in the XML file in the localization folder
 					<attribute id="EquipmentTypeID" type="guid" value="2d85d633-d496-44a1-a643-0e95ef879a6d" />  CHANGE THIS - This tells the game what type of base item this is.
 					<attribute id="Flag" type="int64" value="0" />
 					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Dagger_A_2" />  CHANGE THIS - This is the inventory icon the game uses for your item
