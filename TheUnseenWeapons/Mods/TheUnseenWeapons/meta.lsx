@@ -8,14 +8,14 @@
         <node id="ModuleInfo">
           <attribute id="Author" type="LSWString" value="Kiray" />
           <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
-          <attribute id="Description" type="LSWString" value="Some invisible weapons" />
-          <attribute id="Folder" type="LSWString" value="InvisibleWeapons" />
+          <attribute id="Description" type="LSWString" value="Some weapons inspired by Unseen Menace" />
+          <attribute id="Folder" type="LSWString" value="TheUnseenWeapons" />
           <attribute id="GMTemplate" type="FixedString" value="" />
           <attribute id="LobbyLevelName" type="FixedString" value="" />
           <attribute id="MD5" type="LSString" value="" />
           <attribute id="MainMenuBackgroundVideo" type="FixedString" value="" />
           <attribute id="MenuLevelName" type="FixedString" value="" />
-          <attribute id="Name" type="FixedString" value="InvisibleWeapons" />
+          <attribute id="Name" type="FixedString" value="TheUnseenWeapons" />
           <attribute id="NumPlayers" type="uint8" value="4" />
           <attribute id="PhotoBooth" type="FixedString" value="" />
           <attribute id="StartupLevelName" type="FixedString" value="" />
