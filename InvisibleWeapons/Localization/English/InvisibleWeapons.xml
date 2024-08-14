@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
-	<content contentuid="h17de3609g51c2g4c8fg9cc7ga75c66dc8a89" version="1">Unseen Blade</content>
+	<content contentuid="h17de3609g51c2g4c8fg9cc7ga75c66dc8a89" version="1">The Unseen Blade</content>
+	<content contentuid="h8feb8f7ag3dbeg4392g90a3gaeaacc23be3b" version="1">The Unseen Bow</content>
 	<content contentuid="h30ba1eb1g033ag4ab4ga524g4cf87e7016d0" version="1">They won't see it coming.</content>
-	<content contentuid="haf486aadg5db2g4c82g9065gd8227a7d215c" version="1">Unseen Longswords</content>
-	<content contentuid="haf486aadg5db2g4c82g9065gd8227a7d215c" version="1">Unseen Greatsword</content>
-	<content contentuid="haf486aadg5db2g4c82g9065gd8227a7d215c" version="1">Unseen Greataxes</content>
-	<content contentuid="h3c5c681fg309cg4410g8ec1g45fa4bd8310e" version="1">The famed magical bow that has been wielded by the even more famous Companions of the Hall. Once wielded exclusively by Catti-Brie but now spends its days in the hands of her husband, Drizzt Do'Urden.</content>  
-	<content contentuid="h9ebc78deg7d7fg4a80g8bcfg8abbf88abdc2" version="1">Taulmaril</content> 
+	<content contentuid="h730a40deg4947g476eg87e4ge8508d7ca9b3" version="1">Affected entity has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="h730a40deg4947g476eg87e4ge8508d7ca9b3" version="1">The number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking is reduced by 1. This effect can stack.</content>
 </contentList>
 
