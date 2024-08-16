@@ -1,0 +1,38 @@
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "1,1"
+object category "I_OBJ_IW_ArmouryPack_Rare",1,0,0,0,0,0,0,0
+
+new treasuretable "DEN_Entrance_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_OBJ_IW_ArmouryPack_Rare",1,0,0,0,0,0,0,0
+
+new treasuretable "HAV_HarperQuarterMaster"
+CanMerge 1
+new subtable "1,1"
+object category "I_OBJ_IW_ArmouryPack_Rare",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_OrinsImpersonation_Smith"
+CanMerge 1
+new subtable "1,1"
+object category "I_OBJ_IW_ArmouryPack_Rare",1,0,0,0,0,0,0,0
+
+new treasuretable "OBJ_IW_ArmouryPack_Table_Rare"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_IW_Blade_Rare",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_IW_Pike_Rare",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_IW_Glaive_Rare",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_IW_Halberd_Rare",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_IW_Greataxe_Rare",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_IW_Maul_Rare",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_IW_Longbow_Rare",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_IW_HeavyCrossbow_Rare",1,0,0,0,0,0,0,0

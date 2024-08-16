@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="hc4b6de62gb379g4adfga1deg2af01ce1cb59" version="1">The Unseen Weapons Package</content>
+	<content contentuid="h17de3609g51c2g4c8fg9cc7ga75c66dc8a89" version="1">The Unseen Blade</content>
+	<content contentuid="h8feb8f7ag3dbeg4392g90a3gaeaacc23be3b" version="1">The Unseen Long Bow</content>
+	<content contentuid="h0336968eg9119g4d30gb2ffg5093543f8a6b" version="1">The Unseen Pike</content>
+	<content contentuid="h09ea5df3gfdcbg48d3gbc4bg719c820115f2" version="1">The Unseen Glaive</content>
+	<content contentuid="h784111b0g1f71g475eg9412ga775041968dc" version="1">The Unseen Halberd</content>
+	<content contentuid="hb7e1dcb8g2401g42eag8ecdgf5a47897fbaf" version="1">The Unseen Greataxe</content>
+	<content contentuid="hf0dd6a44g7309g4b73gb10agdda33fe636e0" version="1">The Unseen Maul</content>
+	<content contentuid="h9b1f2e29gc395g499agab4cg4330ceaf6ba5" version="1">The Unseen Heavy Crossbow</content>
+	<content contentuid="h30ba1eb1g033ag4ab4ga524g4cf87e7016d0" version="1">They won't see it coming.</content>
+	<content contentuid="h730a40deg4947g476eg87e4ge8508d7ca9b3" version="1">Affected entity has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. The number to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking is reduced by 1. This effect can stack.</content>
+</contentList>
+

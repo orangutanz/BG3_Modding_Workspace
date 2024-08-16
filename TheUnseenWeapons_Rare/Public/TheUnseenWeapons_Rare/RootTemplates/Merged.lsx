@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>			
+				<node id="GameObjects"> Package
+					<attribute id="DisplayName" type="TranslatedString" handle="hc4b6de62gb379g4adfga1deg2af01ce1cb59" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Backpack_A_Posed_A" />
+					<attribute id="InventoryType" type="uint8" value="11" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ebee864c-c667-4ea1-bda8-b750f1dc8df6" />
+					<attribute id="Name" type="LSString" value="OBJ_IW_ArmouryPack_Rare" />
+					<attribute id="ParentTemplateId" type="FixedString" value="aebf62bd-e68d-4e14-9ed7-1d51289a3e4e" />
+					<attribute id="Stats" type="FixedString" value="OBJ_IW_ArmouryPack_Rare" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="OBJ_IW_ArmouryPack_Table_Rare" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> Blade
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="h30ba1eb1g033ag4ab4ga524g4cf87e7016d0" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h17de3609g51c2g4c8fg9cc7ga75c66dc8a89" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Katana_A" /> 
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="5d9a8ae4-843a-4e96-855d-b978fb02a885" />
+					<attribute id="Name" type="LSString" value="WPN_IW_Blade_Rare" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1a2a58b7-4bd5-44d5-b1fe-8cd7e5b53def" /> 
+					<attribute id="PhysicsTemplate" type="FixedString" value="055d2b80-e866-e75c-358f-0657933137d9" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="WPN_IW_Blade_Rare" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="3909a5ba-694a-0417-22a0-d471acb11c5a" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725669" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.163168" />
+									<attribute id="Max" type="fvec3" value="0.050244045 0.066942975 0.26228333" />
+									<attribute id="Min" type="fvec3" value="-0.060934294 -0.032877326 -1.2886951" />
+									<attribute id="Radius" type="float" value="0.212115" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.163168" />
+									<attribute id="Max" type="fvec3" value="0.050244045 0.066942975 0.26228333" />
+									<attribute id="Min" type="fvec3" value="-0.060934294 -0.032877326 -1.2886951" />
+									<attribute id="Radius" type="float" value="0.42423" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.163168" />
+									<attribute id="Max" type="fvec3" value="0.050244045 0.066942975 0.26228333" />
+									<attribute id="Min" type="fvec3" value="-0.060934294 -0.032877326 -1.2886951" />
+									<attribute id="Radius" type="float" value="0.42423" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects"> Pike
+					<attribute id="Description" type="TranslatedString" handle="h30ba1eb1g033ag4ab4ga524g4cf87e7016d0" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0336968eg9119g4d30gb2ffg5093543f8a6b" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="b50f4bc3-d398-4bc0-b80d-70bcf7009844" />
+					<attribute id="Name" type="LSString" value="WPN_IW_Pike_Rare" />
+					<attribute id="ParentTemplateId" type="FixedString" value="50ffcd8e-eaa2-479c-b8ed-117ef5436b49" />
+					<attribute id="Stats" type="FixedString" value="WPN_IW_Pike_Rare" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+				</node>
+				<node id="GameObjects"> Glaive
+					<attribute id="Description" type="TranslatedString" handle="h30ba1eb1g033ag4ab4ga524g4cf87e7016d0" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h09ea5df3gfdcbg48d3gbc4bg719c820115f2" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="e076ba37-b893-4533-b492-607e582feb65" />
+					<attribute id="Name" type="LSString" value="WPN_IW_Glaive_Rare" />
+					<attribute id="ParentTemplateId" type="FixedString" value="15d2830c-ac76-4b5b-969d-05197875b1c2" />
+					<attribute id="Stats" type="FixedString" value="WPN_IW_Glaive_Rare" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="f4953a5e-85e2-a3a8-c794-6ccc7aaeaf7f" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+				</node>
+				<node id="GameObjects"> Halberd
+					<attribute id="Description" type="TranslatedString" handle="h30ba1eb1g033ag4ab4ga524g4cf87e7016d0" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h784111b0g1f71g475eg9412ga775041968dc" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="bfd8f335-77de-4cd0-80c7-b64096ee2b38" />
+					<attribute id="Name" type="LSString" value="WPN_IW_Halberd_Rare" />
+					<attribute id="ParentTemplateId" type="FixedString" value="0e3b29e8-572f-459d-b382-234ec53b1c08" />
+					<attribute id="Stats" type="FixedString" value="WPN_IW_Halberd_Rare" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209017" />
+				</node>
+				<node id="GameObjects"> Greataxe
+					<attribute id="Description" type="TranslatedString" handle="h30ba1eb1g033ag4ab4ga524g4cf87e7016d0" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb7e1dcb8g2401g42eag8ecdgf5a47897fbaf" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d6abebfe-32ab-4cff-98a4-836453107490" />
+					<attribute id="Name" type="LSString" value="WPN_IW_Greataxe_Rare" />
+					<attribute id="ParentTemplateId" type="FixedString" value="17925d9f-e319-4b6d-8e25-90cb802d932c" />
+					<attribute id="Stats" type="FixedString" value="WPN_IW_Greataxe_Rare" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="7b54bd27-a783-02a8-b3b6-cb134c008e52" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+				</node>
+				<node id="GameObjects"> Maul
+					<attribute id="Description" type="TranslatedString" handle="h30ba1eb1g033ag4ab4ga524g4cf87e7016d0" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf0dd6a44g7309g4b73gb10agdda33fe636e0" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="1afe8524-654c-4646-bb6d-3635088a09ac" />
+					<attribute id="Name" type="LSString" value="WPN_IW_Maul_Rare" />
+					<attribute id="ParentTemplateId" type="FixedString" value="28e67c96-c955-450e-b217-bb7609b6dbd3" />
+					<attribute id="Stats" type="FixedString" value="WPN_IW_Maul_Rare" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="0f68cb25-5d63-7529-4b1b-da31554ba850" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects"> Long Bow
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="h30ba1eb1g033ag4ab4ga524g4cf87e7016d0" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8feb8f7ag3dbeg4392g90a3gaeaacc23be3b" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Longbow_A_0" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="86df3831-bd4e-43bd-8e10-b2fa56d554bf" />
+					<attribute id="Name" type="LSString" value="WPN_IW_Longbow_Rare" />
+					<attribute id="ParentTemplateId" type="FixedString" value="86e3d864-309c-4c17-ba38-877ce487d481" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="dbcf0c3a-97e2-776a-719e-e5a1f1ae215c" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="WPN_IW_Longbow_Rare" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="6bf602f5-fc45-196a-d6c6-b7a69fd24b98" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855902" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.0782637" />
+									<attribute id="Max" type="fvec3" value="0.20505328 0.06602054 0.9179211" />
+									<attribute id="Min" type="fvec3" value="-0.12677045 -0.012243168 -0.9179211" />
+									<attribute id="Radius" type="float" value="0.466808" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.0782637" />
+									<attribute id="Max" type="fvec3" value="0.20505328 0.06602054 0.9179211" />
+									<attribute id="Min" type="fvec3" value="-0.12677045 -0.012243168 -0.9179211" />
+									<attribute id="Radius" type="float" value="0.466808" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.0782637" />
+									<attribute id="Max" type="fvec3" value="0.10252664 0.06602054 0.45896056" />
+									<attribute id="Min" type="fvec3" value="-0.063385226 -0.012243168 -0.45896056" />
+									<attribute id="Radius" type="float" value="0.233404" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>						
+					</children>
+				</node>			
+				<node id="GameObjects"> Heavy Crossbow
+					<attribute id="Description" type="TranslatedString" handle="h30ba1eb1g033ag4ab4ga524g4cf87e7016d0" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9b1f2e29gc395g499agab4cg4330ceaf6ba5" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c7d0df7e-1c85-41b2-9fa3-8cc5a82fa0a9" />
+					<attribute id="Name" type="LSString" value="WPN_IW_HeavyCrossbow_Rare" />
+					<attribute id="ParentTemplateId" type="FixedString" value="04622e3d-5b3f-4f2c-a0db-513a717d911f" />
+					<attribute id="Stats" type="FixedString" value="WPN_IW_HeavyCrossbow_Rare" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790670" />
+				</node>				
+			</children>
+		</node>
+	</region>
+</save>
