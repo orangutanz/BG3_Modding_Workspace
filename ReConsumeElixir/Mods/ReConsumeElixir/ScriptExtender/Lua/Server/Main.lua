@@ -1,5 +1,3 @@
--- Elixir c69fb092-2f4f-4688-82b6-7d92405626b1
--- Status_BOOST POTION_OF_STRENGTH_HILL_GIANT
 local readingTable = {}
 local strElixir = "c69fb092-2f4f-4688-82b6-7d92405626b1"
 local strBoost = "POTION_OF_STRENGTH_HILL_GIANT"
@@ -34,6 +32,3 @@ function CheckCharacterElixir()
     end
     ClearReadingTable()
 end
-
---Osi.ApplyStatus("HalfElves_Male_Wood_Player_Strong_9b3f17a8-85eb-f5d9-2f5e-e34b7d6e37bc","POTION_OF_STRENGTH_HILL_GIANT",-1)
---_P(Osi.TemplateIsInInventory("c69fb092-2f4f-4688-82b6-7d92405626b1","HalfElves_Male_Wood_Player_Strong_9b3f17a8-85eb-f5d9-2f5e-e34b7d6e37bc"))
