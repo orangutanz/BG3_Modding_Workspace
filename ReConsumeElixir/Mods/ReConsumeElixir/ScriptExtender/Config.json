@@ -1,5 +1,5 @@
 {
-  "RequiredVersion": 10,
+  "RequiredVersion": 18,
   "ModTable": "ReConsumeElixir",
   "FeatureFlags": [ "Lua" ]
 }
