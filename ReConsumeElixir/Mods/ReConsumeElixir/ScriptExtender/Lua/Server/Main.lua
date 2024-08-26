@@ -8,8 +8,8 @@ local boostTable = { "POTION_OF_STRENGTH_HILL_GIANT"       ,"ALCH_ELIXIR_BLOODLU
 function ReadExistingElixir()
 	local players = Osi.DB_Players:Get(nil)
 
-    for i, charTable in pairs(players) do
-        for j, character in pairs(charTable) do
+    for i, playerTable in pairs(players) do
+        for j, character in pairs(playerTable) do
             for k, boost in pairs(boostTable) do
                 local has_Elixir = Osi.HasActiveStatus(character,boost)
                 if has_Elixir == 1 then
