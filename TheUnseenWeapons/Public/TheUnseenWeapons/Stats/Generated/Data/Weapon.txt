@@ -16,7 +16,7 @@ data "RootTemplate" "cbb0cbc2-11ca-4e94-b00d-71ef475bc61e"
 data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical);WeaponEnchantment(1)"
 data "Weight" "3.1"
 data "Rarity" "VeryRare"
-data "PassivesOnEquip" "MAG_InvisiblePike_Passive;MAG_ImpalerDamageBonus_Passive"
+data "PassivesOnEquip" "MAG_InvisiblePike_Passive;MAG_ImpalerDamageBonus_Passive;MAG_PHB_Sentinel_Shield_Passive"
 data "StatusOnEquip" "MAG_INVISIBLE_WEAPON_BUFF_TECHNICAL"
 
 new entry "WPN_IW_Glaive"
