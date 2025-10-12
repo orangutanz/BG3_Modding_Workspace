@@ -1,8 +1,26 @@
 local targetTable = {}
 local targetInfoIdxTable = {}
 
-local elixirTable = {"c69fb092-2f4f-4688-82b6-7d92405626b1","45a775f8-2cf9-440d-b9eb-4ee5f17efca8","45cdcf69-bfd2-4311-a883-3f3631ab3959","e6490cc8-7f81-4aac-95e8-a58ce5e88a31","44cd95a7-4791-4ace-bea0-a5ca4421171b"}
-local boostTable = { "POTION_OF_STRENGTH_HILL_GIANT"       ,"ALCH_ELIXIR_BLOODLUST"               ,"ALCH_ELIXIR_CONCENTRATION"           ,"POTION_OF_STRENGTH_CLOUD_GIANT"      , "ALCH_ELIXIR_CRITICALS"}
+local elixirTable = {
+    "c69fb092-2f4f-4688-82b6-7d92405626b1",
+    "45a775f8-2cf9-440d-b9eb-4ee5f17efca8",
+    "45cdcf69-bfd2-4311-a883-3f3631ab3959",
+    "e6490cc8-7f81-4aac-95e8-a58ce5e88a31",
+    "44cd95a7-4791-4ace-bea0-a5ca4421171b",
+    "0aacb1f9-116a-45ec-9b0c-cb436301d4b2",
+    "7d1699d9-c3fa-4761-9718-28230f78420b",
+    "bb27cc17-5af9-4d53-818b-3e620f3f59f2",
+    "17066367-7b64-402e-951d-9dcc1407c278"}
+local boostTable = { 
+    "POTION_OF_STRENGTH_HILL_GIANT"       ,
+    "ALCH_ELIXIR_BLOODLUST"               ,
+    "ALCH_ELIXIR_CONCENTRATION"           ,
+    "POTION_OF_STRENGTH_CLOUD_GIANT"      , 
+    "ALCH_ELIXIR_CRITICALS"               , 
+    "ALCH_Solution_Elixir_Enlarge"        ,
+    "ALCH_Solution_Elixir_ArcaneAcuity"   ,
+    "CONS_Potion_Heroism_A"               ,
+    "ALCH_Solution_Elixir_Alertness"}
 
 
 function ReadExistingElixir()
